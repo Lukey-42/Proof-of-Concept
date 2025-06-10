@@ -1,82 +1,61 @@
-/* Updated CSS */
-
+/* General Styles */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   background-color: white;
   color: #333;
-  border-left: 10px solid #2a4d7b; /* cooler, darker blue */
-  border-right: 10px solid #2a4d7b;
-  padding: 20px;
+  border-left: 15px solid #003366;
+  border-right: 15px solid #003366;
 }
 
-header {
-  background-color: #2a4d7b;
-  color: white;
-  padding: 20px;
+header, footer {
+  background-color: #cce4f7;
+  color: #003366;
   text-align: center;
-}
-
-footer {
-  background-color: #2a4d7b;
-  color: white;
-  text-align: center;
-  padding: 20px;
-  margin-top: 40px;
+  padding: 1em;
 }
 
 h1, h2 {
-  margin-top: 40px;
+  color: #003366;
+  margin-left: 1em;
 }
 
 section {
-  margin-bottom: 40px;
-}
-
-.inline-image {
-  float: left;
-  width: 250px;
-  height: auto;
-  margin: 0 20px 20px 0;
+  padding: 1em 2em;
 }
 
 .step {
-  overflow: auto;
-  margin-bottom: 30px;
-  padding-left: 10px;
+  display: flex;
+  align-items: flex-start;
+  gap: 1em;
+  margin-bottom: 2em;
+}
+
+.inline-image {
+  width: 200px;
+  height: auto;
+  flex-shrink: 0;
 }
 
 .references ul {
   list-style-type: disc;
-  padding-left: 40px;
+  padding-left: 2em;
 }
 
 .references li {
-  margin-bottom: 10px;
-  text-indent: -20px;
-  padding-left: 20px;
+  text-indent: -1em;
+  margin-left: 1em;
+  padding-bottom: 0.5em;
 }
 
-/* Specific image placement for second image */
-.step:nth-of-type(2) .inline-image {
-  float: right;
-  margin: 0 0 20px 20px;
-}
-
-/* Ensure consistent alignment for last step paragraph */
-.step:last-of-type {
-  padding-left: 10px;
-}
-
-@media (max-width: 768px) {
-  .inline-image {
-    float: none;
-    display: block;
-    margin: 0 auto 20px auto;
-    width: 100%;
-    max-width: 300px;
-  }
+footer {
+  margin-top: 3em;
+  padding: 1em;
+  background-color: #cce4f7;
+  color: #003366;
+  text-align: center;
+  font-size: 0.9em;
 }
 
 
