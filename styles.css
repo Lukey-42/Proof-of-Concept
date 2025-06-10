@@ -13,33 +13,54 @@ header {
   border-bottom: 4px solid #a8d4ff;
 }
 
-h1, h2, h3 {
+h1, h2 {
   color: #014f86;
+  margin-top: 1.5rem;
 }
 
 section {
-  padding: 2rem;
-  border-left: 10px solid #e0f0ff;
+  padding: 2rem 15%;
+  border-left: 10px solid #93c5fd; /* darker blue */
+  border-right: 10px solid #93c5fd; /* added right side */
   margin: 1rem 0;
 }
 
-p {
+.step {
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.step p {
+  margin-left: 220px; /* make room for image */
+  max-width: 800px;
   line-height: 1.6;
 }
 
 .side-image {
   float: left;
   width: 200px;
+  height: auto;
   margin-right: 20px;
   margin-bottom: 10px;
   border-radius: 8px;
 }
 
-ul {
-  padding-left: 1.5rem;
+.conclusion p {
+  max-width: 800px;
+  margin: auto;
+  line-height: 1.6;
 }
 
-ul li {
+.references ul {
+  list-style: none;
+  padding-left: 0;
+  max-width: 800px;
+  margin: auto;
+}
+
+.references li {
+  padding-left: 1.5em;
+  text-indent: -1.5em;
   margin-bottom: 1rem;
-  line-height: 1.4;
+  line-height: 1.6;
 }
