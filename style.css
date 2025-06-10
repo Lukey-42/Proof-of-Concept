@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background-color: #d0e7ff;
+  padding: 2rem;
+  text-align: center;
+  border-bottom: 4px solid #a8d4ff;
+}
+
+h1, h2, h3 {
+  color: #014f86;
+}
+
+section {
+  padding: 2rem;
+  border-left: 10px solid #e0f0ff;
+  margin: 1rem 0;
+}
+
+p {
+  line-height: 1.6;
+}
+
+.side-image {
+  float: left;
+  width: 200px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+ul {
+  padding-left: 1.5rem;
+}
+
+ul li {
+  margin-bottom: 1rem;
+  line-height: 1.4;
+}
