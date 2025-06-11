@@ -5,34 +5,40 @@ body {
   padding: 0;
   background-color: white;
   color: #333;
-  border-left: 15px solid #003366;
+  border-left: 15px solid #003366;  /* Dark cool blue borders */
   border-right: 15px solid #003366;
 }
 
+/* Header and Footer */
 header, footer {
-  background-color: #cce4f7;
-  color: #003366;
+  background-color: #cce4f7;  /* Light blue */
+  color: #003366;             /* Dark blue text */
   text-align: center;
   padding: 1em;
 }
 
+/* Headings */
 h1, h2 {
   color: #003366;
-  margin-left: 1em;
+  text-align: center;
+  margin-top: 1em;
 }
 
+/* Section Layout */
 section {
   padding: 1em 2em;
+  text-align: center; /* Center entire section content */
 }
 
 /* Paragraph Styling */
 section p {
   max-width: 700px;
+  margin: 0 auto 1.5em auto;
+  text-align: left;   /* Keep paragraph text left-aligned for readability */
   line-height: 1.6;
-  margin-bottom: 1.5em;
 }
 
-/* Step Section */
+/* Step Section Layout */
 .step {
   display: flex;
   flex-direction: column;
@@ -42,7 +48,7 @@ section p {
 
 /* Image Styling */
 .inline-image {
-  width: 350px;  /* Increased size */
+  width: 400px;  /* Larger size */
   height: auto;
   display: block;
   margin: 1em auto;
@@ -54,6 +60,7 @@ section p {
   margin: 0 0 1em 2em;
   text-indent: -1.5em; /* Hanging indent */
   padding-left: 1.5em;
+  text-align: left;
 }
 
 /* Footer Styling */
@@ -65,5 +72,4 @@ footer {
   text-align: center;
   font-size: 0.9em;
 }
-
 
