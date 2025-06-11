@@ -5,13 +5,13 @@ body {
   padding: 0;
   background-color: white;
   color: #333;
-  border-left: 15px solid #003366;  /* dark blue side borders */
-  border-right: 15px solid #003366; /* dark blue side borders */
+  border-left: 15px solid #003366;
+  border-right: 15px solid #003366;
 }
 
 header, footer {
-  background-color: #cce4f7;  /* light blue */
-  color: #003366;             /* dark blue text */
+  background-color: #cce4f7;
+  color: #003366;
   text-align: center;
   padding: 1em;
 }
@@ -25,44 +25,38 @@ section {
   padding: 1em 2em;
 }
 
-/* Step sections: image left, text right */
-.step {
-  display: flex;
-  align-items: flex-start;
-  gap: 1em;
-  margin-bottom: 2em;
-}
-
-/* Images in paragraphs */
-.inline-image {
-  width: 220px;
-  height: auto;
-  flex-shrink: 0;
-  float: left;
-  margin-right: 1em;
-  margin-bottom: 1em;
-}
-
-/* Paragraph styling for readability */
+/* Paragraph Styling */
 section p {
-  max-width: 700px;      /* limits paragraph width */
-  line-height: 1.6;      /* better line spacing */
+  max-width: 700px;
+  line-height: 1.6;
   margin-bottom: 1.5em;
 }
 
-/* Reference list styling */
-.references ul {
-  list-style-type: disc;
-  padding-left: 2em;
+/* Step Section */
+.step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2em;
 }
 
-.references li {
-  text-indent: -1em;
-  margin-left: 1em;
-  padding-bottom: 0.5em;
+/* Image Styling */
+.inline-image {
+  width: 350px;  /* Increased size */
+  height: auto;
+  display: block;
+  margin: 1em auto;
 }
 
-/* Footer styling */
+/* References Section */
+.references p {
+  max-width: 900px;
+  margin: 0 0 1em 2em;
+  text-indent: -1.5em; /* Hanging indent */
+  padding-left: 1.5em;
+}
+
+/* Footer Styling */
 footer {
   margin-top: 3em;
   padding: 1em;
