@@ -1,18 +1,18 @@
-/* General Styles */
+/* General Body Styling */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   background-color: white;
   color: #333;
-  border-left: 15px solid #003366;  /* Dark cool blue borders */
+  border-left: 15px solid #003366;  /* Dark blue side border */
   border-right: 15px solid #003366;
 }
 
 /* Header and Footer */
 header, footer {
   background-color: #cce4f7;  /* Light blue */
-  color: #003366;             /* Dark blue text */
+  color: #003366;             /* Dark cool blue text */
   text-align: center;
   padding: 1em;
 }
@@ -27,14 +27,14 @@ h1, h2 {
 /* Section Layout */
 section {
   padding: 1em 2em;
-  text-align: center; /* Center entire section content */
+  text-align: center;  /* Center section content */
 }
 
 /* Paragraph Styling */
 section p {
   max-width: 700px;
   margin: 0 auto 1.5em auto;
-  text-align: left;   /* Keep paragraph text left-aligned for readability */
+  text-align: left;    /* Left-align for readability */
   line-height: 1.6;
 }
 
@@ -48,17 +48,21 @@ section p {
 
 /* Image Styling */
 .inline-image {
-  width: 400px;  /* Larger size */
+  width: 400px;  /* Increased size */
   height: auto;
   display: block;
   margin: 1em auto;
 }
 
 /* References Section */
+.references {
+  text-align: center;  /* Center heading only */
+}
+
 .references p {
   max-width: 900px;
   margin: 0 auto 1em auto;
-  text-indent: -1.5em; /* Hanging indent */
+  text-indent: -1.5em;   /* Hanging indent */
   padding-left: 1.5em;
   text-align: left;
 }
