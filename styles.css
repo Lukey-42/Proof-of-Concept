@@ -57,10 +57,10 @@ section p {
 /* References Section */
 .references p {
   max-width: 900px;
-  margin: 0 0 1em 2em;
+  margin: 0 auto 1em auto;
   text-indent: -1.5em; /* Hanging indent */
   padding-left: 1.5em;
-  text-align: center;
+  text-align: left;
 }
 
 /* Footer Styling */
